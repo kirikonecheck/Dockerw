@@ -2,8 +2,8 @@
 
 ## Запуск контейнера
 
-![alt text](Screenshots/image15.png)
+![alt text](/Screenshots/image15.png)
 
 ## Страница в браузере
 
-![alt text](Screenshots/image16.png)
+![alt text](/Screenshots/image16.png)
