@@ -1,42 +1,25 @@
-## Apache
+# APACHE
 
-> Никогда в разработке не используйте русские имена файлов и каталогов!
+### Запуск контейнера
 
-> Никогда в разработке не используйте пробелы и спец.символы в именах файлов и каталогов!
+![alt text](Screenshots/image.png)
 
-Выполните все этапы работы с проектом по примеру с [Nginx](/content/Docker/ImageLibrary/Nginx.md)
+### Переход в контейнер
 
-Получить образ, создать и запустить контейнер:
-```shell
-docker run -d --name my-apache -p 8081:80 httpd
-```
+![alt text](Screenshots/image1.png)
 
-[Откройте адрес http://localhost:8081 в браузере](http://localhost:8081)
+### Установка текстового редактора micro
 
-### Редактирование веб-страницы
+![alt text](Screenshots/image2.png)
 
-Зайти в контейнер
-```shell
-docker exec -it my-apache bash
-```
+### Открытие файла index.html
 
-Установить текстовый редактор командной строки Micro:
-```shell
-apt update && apt install -y micro
-```
+![alt text](Screenshots/image3.png)
 
-Открыть файл `index.html` для редактирования содержимого
-```shell
-micro /usr/local/apache2/htdocs/index.html
-```
+### Добавление CHARSET
 
-> Чтобы в веб-странице поддерживался русский язык, вставьте тэг `<meta charset="UTF-8">`
+![alt text](Screenshots/image4.png)
 
-отредайтируйте и сохраните по `Ctrl+S` и выйти из режима редактирования по `Ctrl+Q` или `F10`
+### Страница в браузере
 
-[Проверьте результат по адрес http://localhost:8081](http://localhost:8081)
-
-Выйти из контейнера:
-```shell
-exit
-```
+![alt text](Screenshots/image5.png)
