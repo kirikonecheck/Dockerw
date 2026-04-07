@@ -2,7 +2,7 @@
 
 ## Проверка порта 8082
 
-![alt text](/Screenshots/image.png)
+![alt text](/Screenshots/image17.png)
 
 ## Запуск контейнера
 

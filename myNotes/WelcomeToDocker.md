@@ -1,7 +1,7 @@
 # Welcome to Docker
 
 ## Проверка порта
-[alt text](/Screenshots/image6.png)
+![alt text](/Screenshots/image6.png)
 
 ## Запуск контейнера
 ![alt text](/Screenshots/image7.png)
